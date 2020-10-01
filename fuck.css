@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import ('https://fonts.googleapis.com/css?family=Orbitron');
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body {
 }
 .container p span.typed-text {
     font-weight: normal;
-    color: #dd7732;
+    color: greenyellow;
 }
 .container p span.cursor {
     display: inline-block;
@@ -44,4 +44,10 @@ body {
     50% { background-color: transparent; }
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
+}
+
+footer {
+    font-family: monospace;
+    color: white;
+    text-align: center;
 }
